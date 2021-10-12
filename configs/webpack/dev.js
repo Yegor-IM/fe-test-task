@@ -11,7 +11,7 @@ module.exports = merge(commonConfig, {
     './index.tsx', // the entry point of our app
   ],
   devServer: {
-    host: 'localhost.insurance-menu.com',
+    host: 'localhost',
     publicPath: '/',
     historyApiFallback: true,
     hot: true, // enable HMR on the server
